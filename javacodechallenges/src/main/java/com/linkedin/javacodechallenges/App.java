@@ -1,7 +1,5 @@
 package com.linkedin.javacodechallenges;
 
-import java.util.regex.Pattern;
-
 /**
  * Hello world!
  *
@@ -10,7 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        DoubleOrNothing game = new DoubleOrNothing();
+        game.playGame();
     }
 
     // Challenge 1
